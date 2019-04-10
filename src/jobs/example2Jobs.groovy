@@ -1,7 +1,7 @@
 import groovy.json.JsonSlurper
 
 String basePath = 'example2'
-String repo = 'sheehan/gradle-example'
+String repo = 'adkinsar/job-dsl-gradle-example'
 
 folder(basePath) {
     description 'This example shows how to create a set of jobs for each github branch, each in its own folder.'
